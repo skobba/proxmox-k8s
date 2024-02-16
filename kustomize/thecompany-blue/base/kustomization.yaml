@@ -1,0 +1,4 @@
+resources:
+- deploy-thecompany-blue.yaml
+- namespace.yaml
+namespace: thecompany
