@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+# Specify the API version for the Kustomization resource.
+
+
+resources:
+  - namespace.yaml
+  - ipaddresspool.yaml
+  - github.com/metallb/metallb/config/frr?ref=v0.14.3

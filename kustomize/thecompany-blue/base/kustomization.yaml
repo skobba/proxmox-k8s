@@ -1,4 +1,5 @@
 resources:
 - deploy-thecompany-blue.yaml
+- service.yaml
+- ingress.yaml
 - namespace.yaml
-namespace: thecompany

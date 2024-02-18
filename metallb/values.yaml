@@ -1,6 +1,0 @@
-config:
-  address-pools:
-    - name: my-ip-pool
-      protocol: layer2
-      addresses:
-        - 10.10.9.40-10.10.9.49
